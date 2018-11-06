@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 50px;
+	background: skyblue;
+}
+ li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 50px;
+}
+ .login {
+ 	width: 100px;
+ 	height: 50px;
+	background-color: pink;
+	float: right;
+	text-align: center;
+}
+
+
+
+
+.submit-form {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -100px;
+	background-color: #555;
+	opacity: .6;
+}
+.submit-form ul {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	color: #fff;
+}
+.sbumit-form li {
+	margin-bottom: 10px;
+}
+.submit-form div {	
+	width: 100%;
+	background-color: red;
+	color: #fff;
+	text-align: center;
+}
+.submit-form li:last-child {
+	margin-left: -20px;
+	text-align: center;
+}
+
+.user {
+	width: 300px;
+	height: 50px;
+	float: right;
+	position: relative;
+}
+.user li {
+	width: 60px;
+	height: 50px;
+	float: left;
+}
+.user li {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.small-class li:nth-child(2) a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.small-class li:nth-child(2)::after {
+	content: "▲";
+	color: #fff;
+	text-align: center;
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 15px;
+	right: -5px;
+	font-size: 12px;
+	transform: rotate(180deg);
+}
+.user li:last-child {
+	text-align: center
+}
+.hidden {
+	position: absolute;
+	top: 50px;
+	left: 25px;
+	background-color: #f9cad2;
+	width: 150px;
+	height: 150px;
+	display: block;
+}
+.hidden-lf {
+	
+	margin-top: 10px;
+}
+.hidden .hidden-lf li {
+	height: 40px;
+	width: 30px;
+	padding-left: 4px;
+	float: none;
+	font-size: 12px;
+	text-align: left;
+	line-height: 40px;
+}
+.hidden-lf li:hover {
+	color: #fff;
+	text-decoration: underline;
+	border-right: 1px solid #fff;
+}
